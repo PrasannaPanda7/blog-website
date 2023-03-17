@@ -1,49 +1,20 @@
-# Blog website using reactjs
+# blog-website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About the Project
+This is a blog website designed with reactJs and redux. Here an user can register via providing credentials as per the validatons required and a registered user can simply login after providing his/her credentials.
+Local Storage is used for storing the data.
 
-## Available Scripts
+##Screen Shots
+### Landing Page
+<img src="https://github.com/PrasannaPanda7/blog-website/blob/main/Screenshot%20from%202023-03-17%2016-19-41.png">
+<img src="https://github.com/PrasannaPanda7/blog-website/blob/main/Screenshot%20from%202023-03-17%2016-41-33.png">
+<img src="https://github.com/PrasannaPanda7/blog-website/blob/main/Screenshot%20from%202023-03-17%2016-41-44.png">
 
-In the project directory, you can run:
+### Signin Page
+<img src="https://github.com/PrasannaPanda7/blog-website/blob/main/Screenshot%20from%202023-03-17%2016-41-52.png">
 
-### `npm start`
+### Signup Page
+<img src="https://github.com/PrasannaPanda7/blog-website/blob/main/Screenshot%20from%202023-03-17%2016-41-59.png">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## About the project
-
-This is blog website. Here user can signup according to the validations provided and registered users can login using there credentials.
-
-## Screen shots
-###Landing page
-####Screensot1
-<img src = ""/>
+### Blog Page
+<img src="https://github.com/PrasannaPanda7/blog-website/blob/main/Screenshot%20from%202023-03-17%2016-42-24.png">
