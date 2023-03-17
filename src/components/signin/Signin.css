@@ -1,0 +1,158 @@
+.wrapper {
+  width: 100%;
+  max-width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: none;
+  display: flex;
+}
+
+.form_box {
+  width: 90%;
+  max-width: 500px;
+  position: absolute;
+  margin-top: 3%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--primary-background-color);
+  border: 2px solid var(--secondary-background-color);
+  padding: 35px 50px 35px;
+  text-align: center;
+}
+
+.form_box > h2 {
+  font-size: var(--font-size-lg);
+  margin-bottom: 5rem;
+  position: relative;
+}
+
+.input-box {
+  margin: 15px 0;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.user-input,
+.icon {
+  color: var(--light-color);
+  display: inline-block;
+  border: 1px solid var(--secondary-background-color);
+  padding: 1.5rem;
+}
+
+.user-input {
+  border-left: none;
+  width: 80%;
+  background-color: var(--primary-background-color);
+}
+
+.icon {
+  margin-right: -0.5rem;
+  border-right: none;
+  background-color: var(--secondary-background-color);
+  width: 8rem;
+}
+
+.remember-forgot {
+  font-size: var(--font-size-xsm);
+  margin-top: 2rem;
+  display: flex;
+  position: relative;
+}
+
+.remember-forgot > a {
+  position: absolute;
+  right: 0;
+}
+
+.login-btn {
+  margin-top: 4rem;
+  padding: 1rem 4rem;
+  font-size: var(--font-size-sm);
+  background-color: var(--secondary-background-color);
+}
+
+.login-btn:hover {
+  
+  cursor: default;
+  color: inherit;
+}
+
+.login-btn.active {
+  cursor: pointer;
+  background-color: var(--secondary-background-color);
+}
+
+.login-btn.active:hover {
+  color: var(--light-color);
+}
+
+.login-register {
+  font-size: var(--font-size-xsm);
+  margin-top: 3rem;
+}
+
+.pass {
+  position: relative;
+}
+
+.requirements {
+  position: absolute;
+  left: 100%;
+  /* background-color: var(--secondary-background-color); */
+  width: 50%;
+  text-align: left;
+  padding-left: 0;
+  font-size: var(--font-size-xsm);
+  display: none;
+  transform: scale(0);
+}
+
+.requirements.active {
+  display: block;
+  transform: scale(1);
+}
+
+.requirements-ul {
+  padding-left: 10%;
+  list-style: disc;
+}
+
+.requirements-ul > li > span {
+  color: var(--light-color-alt);
+}
+
+@media screen and (max-width: 600px) {
+  .input-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .user-input {
+    width: 50%;
+  }
+  .remember-forgot {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .remember-forgot > a {
+    margin-top: 2rem;
+    position: initial;
+  }
+  .form_box {
+    width: 80%;
+    min-width: none;
+  }
+  .requirements {
+    position: absolute;
+    left: 0;
+    top: 100%;
+  }
+}
